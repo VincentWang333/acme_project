@@ -17,3 +17,7 @@ Make sure you have a working Docker runing on your machine, to fire up the entir
 docker-compose up
 ```
 
+Thank you for try it out, and feedback is always welcome and appreciated.
+
+
+
