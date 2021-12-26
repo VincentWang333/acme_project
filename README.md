@@ -14,17 +14,17 @@ By doing this will pull down all the source code of sub modules
 
 In case if you still can not get frontend source code in acme_deviceMonitor folder, please refer to https://github.com/VincentWang333/acme_deviceMonitor
 
-In case if you still can not get frontend source code in acme_platform folder, please refer to 
+In case if you still can not get backend source code in acme_platform folder, please refer to 
 https://github.com/VincentWang333/acme_platform
 
 
-All submodules contain a dockerfile, and a extra docker compose file at the this parent folder. 
+All submodules contain a dockerfile, and a extra docker compose file at the root this parent folder. 
 Make sure you have a working Docker runing on your machine, to fire up the entire stack, simply run
 ```
 docker-compose up
 ```
 
-Thank you for try it out, and feedback is always welcome and appreciated.
+Thank you for try it out, and feedbacks are always welcome and appreciated.
 
 
 
