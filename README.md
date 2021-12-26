@@ -6,9 +6,9 @@ There are two main features in this app:
 User can have two windows open with one of simulator to simulate data flow and update device data, and another one of monitor to keep monitoring database update from simulator. 
 As user might switch different roles and both of them are hosted on the same port, please extra refresh the browser of the monitor page to make sure the websocket connection is solid. Websocket is used in this project to achieve real time data update for Monitor dashboard.
 
-Installation: This project contain two submodules. To get the entire project run the below command in you terminal.
+Installation: This project contain two submodules. To get the entire project that contain the source code of submodules, please run the below command in you terminal.
 ```
-'git clone --recurse-submodules https://github.com/VincentWang333/acme_project.git'
+git clone --recurse-submodules https://github.com/VincentWang333/acme_project.git
 ``` 
 By doing this will pull down all the source code of sub modules
 
