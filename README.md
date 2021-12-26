@@ -19,7 +19,7 @@ https://github.com/VincentWang333/acme_platform
 
 
 All submodules contain a dockerfile, and a extra docker compose file at the root this parent folder. 
-Make sure you have a working Docker runing on your machine, to fire up the entire stack, simply run
+Make sure you have a working Docker runing on your machine, to fire up the entire stack, under the root of this folder and simply run this command in terminal. 
 ```
 docker-compose up
 ```
