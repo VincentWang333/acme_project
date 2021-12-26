@@ -1,4 +1,4 @@
-# acme_project
+# ACEM project
 This is a personal project using Django backend and Angular frontend. The database that I am using is default sqlite3 come with Django framework. 
 There are two main features in this app: 
   1. Simulator that simulate device send state data to the backend and perform database manipulation and update.
@@ -10,8 +10,15 @@ Installation: This project contain two submodules. To get the entire project run
 ```
 'git clone --recurse-submodules https://github.com/VincentWang333/acme_project.git'
 ``` 
+By doing this will pull down all the source code of sub modules
 
-All submodules contain a docker, with a docker compose file at the parent folder. 
+In case if you still can not get frontend source code in acme_deviceMonitor folder, please refer to https://github.com/VincentWang333/acme_deviceMonitor
+
+In case if you still can not get frontend source code in acme_platform folder, please refer to 
+https://github.com/VincentWang333/acme_platform
+
+
+All submodules contain a dockerfile, and a extra docker compose file at the this parent folder. 
 Make sure you have a working Docker runing on your machine, to fire up the entire stack, simply run
 ```
 docker-compose up
