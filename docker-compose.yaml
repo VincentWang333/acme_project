@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  backend_api:
+    container_name: acme_platform
+    build:
+      context: ./acme_platform
+      dockerfile: Dockerfile
+    volumes:
+      - /app/acme_platform/
+    ports:
+      - 8000:8000
+  frontend_client:
+    container_name: acme_client
+    build:
+      context: ./acme_deviceMonitor
+      dockerfile: Dockerfile
+    volumes:
+      - /app/acme_deviceMonitor
+    ports:
+      - 4200:4200
+    depends_on:
+      - backend_api

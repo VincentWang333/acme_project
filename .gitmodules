@@ -1,0 +1,6 @@
+[submodule "acme_platform"]
+	path = acme_platform
+	url = https://github.com/VincentWang333/acme_platform.git
+[submodule "acme_deviceMonitor"]
+	path = acme_deviceMonitor
+	url = https://github.com/VincentWang333/acme_deviceMonitor.git
